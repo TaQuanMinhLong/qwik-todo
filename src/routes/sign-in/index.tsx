@@ -11,7 +11,7 @@ export default component$(() => {
     loader: useSignal({ email: "", password: "" }),
   });
   return (
-    <main class="flex h-screen w-screen items-center justify-center bg-indigo-500">
+    <main class="flex h-screen w-screen items-center justify-center  bg-indigo-500">
       <div class="w-full max-w-md rounded-md bg-white shadow-md">
         <div class="p-8">
           <div class="relative mb-8">
