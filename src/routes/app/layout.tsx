@@ -9,7 +9,7 @@ export default component$(() => {
   return (
     <main>
       <nav class="flex gap-2 font-bold">
-        <Link href="/login">Login</Link>
+        <Link href="/sign-in?_action=login">Sign In</Link>
       </nav>
       <Slot />
     </main>
