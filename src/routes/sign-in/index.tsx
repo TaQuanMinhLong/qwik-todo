@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { DocumentHead } from "@builder.io/qwik-city";
+import { DocumentHead, Form } from "@builder.io/qwik-city";
 
 export const head: DocumentHead = {
   title: "Qwik Todo | Sign In",
@@ -7,8 +7,13 @@ export const head: DocumentHead = {
 
 export default component$(() => {
   return (
-    <div>
-      <h1>Login Page</h1>
-    </div>
+    <main class="h-screen w-screen flex items-center justify-center bg-indigo-500">
+      <div>
+        <div>
+          <h2>Login</h2>
+          <Form></Form>
+        </div>
+      </div>
+    </main>
   );
 });
